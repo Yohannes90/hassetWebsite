@@ -43,7 +43,7 @@ const Hero = () => {
             <div className="bg-gradient-to-t from-[#ffad66] to-[#f8fdfe] rounded-[560px] rounded-t-none rounded-r-[115px] rounded-t-none">
                 <div className="container mx-auto px-3 lg:flex justify-between items-center lg:h-screen">
                     <div className="lg:w-2/5">
-                        <p className="text-[#ff7600] md:text-xl text-lg font-medium">Business Listing</p>
+                        <p className="text-[#ff7600] md:text-xl text-lg font-medium uppercase">Business Listing</p>
                         <h1 className="lg:text-6xl text-3xl font-medium pt-3 pb-12">Buy, Sell, and Franchise Your Dream Buisnesses</h1>
                         <p className="text-[#808080] lg:text-base text-sm pb-8">We empower entrepreneurs and businesses to unlock new growth opportunities, connecting buyers, sellers, and franchisees in a dynamic marketplace.</p>
                         <Carousel
@@ -73,7 +73,7 @@ const Hero = () => {
                     <form action="" className="bg-white shadow-2xl rounded-3xl py-8 lg:w-2/5 relative lg:mt-0 mt-12">
                             <div className="flex justify-between border-b border-[#aaaaaa] h-12 lg:px-8 px-3">
                                 <button type="button" className="w-1/2 text-[#808080] focus:border-b-2 border-b-2 focus:text-[#ff7600] focus:border-[#ff7600] cursor-pointer">Businesses For Sale</button>
-                                <button type="button" className="w-1/2 text-[#808080] focus:border-b-2 border-b-2 focus:text-[#ff7600] focus:border-[#ff7600] cursor-pointer">Businesses For Franchise</button>
+                                <button type="button" className="w-1/2 text-[#808080] focus:border-b-2 border-b-2 focus:text-[#ff7600] focus:border-[#ff7600] cursor-pointer">Franchise Opportunities</button>
                             </div>
                             <div className="py-12 flex flex-col gap-8 lg:px-12 px-4">
                                 <input type="text" placeholder="Addis Ababa, Bahirdar, Adama, etc" className="h-16 outline-none rounded-3xl bg-[#f6f6f6] border border-[#e5e5e5] px-6" />
@@ -91,12 +91,14 @@ const Hero = () => {
                                     <VscSettings className="text-2xl"/>
                                     <p>Advanced Search</p>
                                 </span>
-                                <button type="button" className="w-full flex justify-center items-center gap-x-2 bg-[#ff7600] text-white rounded-2xl h-14">
+                                <button type="button"
+                                    className="w-full flex justify-center items-center gap-x-2 bg-[#ff7600] text-white rounded-2xl h-14 hover:bg-[#e06b00]"
+                                >
                                     <IoSearch />
                                     Search
                                 </button>
                             </div>
-                            <button className="lg:hidden block bg-gradient-to-r from-[#ffad66] to-[#eff9f9] rounded-2xl h-12 w-12 cursor-auto absolute -top-2 -right-2"></button>
+                            <button className="lg:bg-gradient-to-r from-[#ffad66] to-[#eff9f9] rounded-2xl h-12 w-12 cursor-auto absolute -top-2 -right-2"></button>
                     </form>
 
 
@@ -107,7 +109,7 @@ const Hero = () => {
         <div className="lg:hidden block container mx-auto px-3 py-8">
             <span className="lg:flex items-end gap-x-60 lg:text-left text-center">
                 <button className="lg:block hidden bg-gradient-to-r from-[#ffad66] to-[#eff9f9] rounded-full h-24 w-24 cursor-auto"></button>
-                <p className="text-[#a5a5a5] ">Trusted by 100+ Companies across the globe!</p>
+                <p className="text-[#a5a5a5]">Trusted by 100+ Companies across the globe!</p>
             </span>
 
             <div className="py-12">
@@ -149,19 +151,19 @@ const Hero = () => {
 
         <div className="lg:block hidden container mx-auto px-3 py-16">
             <span className="lg:flex items-end gap-x-60 lg:text-left text-center">
-                <button className="lg:block hidden bg-gradient-to-r from-[#ffad66] to-[#eff9f9] rounded-full h-24 w-24 cursor-auto"></button>
-                <p className="text-[#a5a5a5] ">Trusted by 100+ Companies across the globe!</p>
+                {/* <button className="lg:block hidden bg-gradient-to-r from-[#ffad66] to-[#eff9f9] rounded-3xl h-24 w-24 cursor-auto"></button> */}
+                {/* <p className="text-[#a5a5a5]">Trusted by 100+ Companies across the globe!</p> */}
             </span>
 
             <div className="py-12">
                 <Marquee>
                     {/* <img src="/assets/logo1.png" alt="" /> */}
+                    {/* <img src="https://cdn.gamma.app/d7vkeqrjc7oppar/generated-images/XA4IIVr7FQ2QDpexsAQni.jpg" alt="" className="w-36 h-12" />
                     <img src="https://cdn.gamma.app/d7vkeqrjc7oppar/generated-images/XA4IIVr7FQ2QDpexsAQni.jpg" alt="" className="w-36 h-12" />
                     <img src="https://cdn.gamma.app/d7vkeqrjc7oppar/generated-images/XA4IIVr7FQ2QDpexsAQni.jpg" alt="" className="w-36 h-12" />
                     <img src="https://cdn.gamma.app/d7vkeqrjc7oppar/generated-images/XA4IIVr7FQ2QDpexsAQni.jpg" alt="" className="w-36 h-12" />
                     <img src="https://cdn.gamma.app/d7vkeqrjc7oppar/generated-images/XA4IIVr7FQ2QDpexsAQni.jpg" alt="" className="w-36 h-12" />
-                    <img src="https://cdn.gamma.app/d7vkeqrjc7oppar/generated-images/XA4IIVr7FQ2QDpexsAQni.jpg" alt="" className="w-36 h-12" />
-                    <img src="https://cdn.gamma.app/d7vkeqrjc7oppar/generated-images/XA4IIVr7FQ2QDpexsAQni.jpg" alt="" className="w-36 h-12" />
+                    <img src="https://cdn.gamma.app/d7vkeqrjc7oppar/generated-images/XA4IIVr7FQ2QDpexsAQni.jpg" alt="" className="w-36 h-12" /> */}
                 </Marquee>
             </div>
         </div>

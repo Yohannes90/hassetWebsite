@@ -24,7 +24,7 @@ const responsive = {
 
     module: {
         breakpoint: { max: 640, min: 0 },
-        items: 0,
+        items: 1,
     },
 }
 const LatestPackages = () => {
@@ -66,14 +66,14 @@ const LatestPackages = () => {
                 </div>
                 <span className="flex flex-col gap-y-1 py-4">
                     <p className="text-xl font-medium">Asking Price: 1,000,000.00 Birr</p>
-                    <p className="text-lg font-medium">Business Name</p>
-                    <p className="text-sm">Location</p>
+                    <p className="text-lg font-medium">Juice Bar</p>
+                    <p className="text-sm">Bahir Dar, Ethiopia</p>
                     <div className="flex items-center gap-x-4 text-sm">
                         <span className="flex items-center gap-y-2 py-4">
-                            <FaBriefcase className="text-xl" />For Sale
+                            <FaBriefcase className="text-[#ff7600] text-xl mr-2" />For Sale
                         </span>
                         <span className="flex items-center gap-y-2 py-4">
-                            <FaChartLine className="text-xl" /> 20,000 Birr/Month
+                            <FaChartLine className="text-[#ff7600] text-xl mr-2" /> 20,000 Birr/Month
                         </span>
                     </div>
                 </span>
@@ -89,14 +89,14 @@ const LatestPackages = () => {
                 </div>
                 <span className="flex flex-col gap-y-1 py-4">
                     <p className="text-xl font-medium">Asking Price: 700,000.00 Birr</p>
-                    <p className="text-lg font-medium">Business Name</p>
-                    <p className="text-sm">Location</p>
+                    <p className="text-lg font-medium">Laundary</p>
+                    <p className="text-sm">Hawassa, Ethiopia</p>
                     <div className="flex items-center gap-x-4 text-sm">
                         <span className="flex items-center gap-y-2 py-4">
-                            <FaBriefcase className="text-xl" />For Franchise
+                            <FaBriefcase className="text-[#ff7600] text-xl mr-2" />For Sell
                         </span>
                         <span className="flex items-center gap-y-2 py-4">
-                            <FaChartLine className="text-xl" /> 12,000 Birr/Month
+                            <FaChartLine className="text-[#ff7600] text-xl mr-2" /> 12,000 Birr/Month
                         </span>
                     </div>
                 </span>
@@ -111,15 +111,15 @@ const LatestPackages = () => {
                     </button>
                 </div>
                 <span className="flex flex-col gap-y-1 py-4">
-                    <p className="text-xl font-medium">Asking Price: 1,000,000.00 Birr</p>
-                    <p className="text-lg font-medium">Business Name</p>
-                    <p className="text-sm">Location</p>
+                    <p className="text-xl font-medium">Asking Price: 700,000.00 Birr</p>
+                    <p className="text-lg font-medium">Bakery</p>
+                    <p className="text-sm">Gondar, Ethiopia</p>
                     <div className="flex items-center gap-x-4 text-sm">
                         <span className="flex items-center gap-y-2 py-4">
-                            <FaBriefcase className="text-xl" />For Sale
+                            <FaBriefcase className="text-[#ff7600] text-xl mr-2" />For Sale
                         </span>
                         <span className="flex items-center gap-y-2 py-4">
-                            <FaChartLine className="text-xl" /> 20,000 Birr/Month
+                            <FaChartLine className="text-[#ff7600] text-xl mr-2" /> 20,000 Birr/Month
                         </span>
                     </div>
                 </span>
@@ -136,13 +136,13 @@ const LatestPackages = () => {
                 <span className="flex flex-col gap-y-1 py-4">
                     <p className="text-xl font-medium">Asking Price: 700,000.00 Birr</p>
                     <p className="text-lg font-medium">Business Name</p>
-                    <p className="text-sm">Location</p>
+                    <p className="text-sm">Addis Ababa, Ethiopia</p>
                     <div className="flex items-center gap-x-4 text-sm">
                         <span className="flex items-center gap-y-2 py-4">
-                            <FaBriefcase className="text-xl" />For Franchise
+                            <FaBriefcase className="text-[#ff7600] text-xl mr-2" />For Franchise
                         </span>
                         <span className="flex items-center gap-y-2 py-4">
-                            <FaChartLine className="text-xl" /> 12,000 Birr/Month
+                            <FaChartLine className="text-[#ff7600] text-xl mr-2" /> 12,000 Birr/Month
                         </span>
                     </div>
                 </span>
@@ -161,13 +161,13 @@ const LatestPackages = () => {
                 <span className="flex flex-col gap-y-1 py-4">
                     <p className="text-xl font-medium">Asking Price: 700,000.00 Birr</p>
                     <p className="text-lg font-medium">Business Name</p>
-                    <p className="text-sm">Location</p>
+                    <p className="text-sm">Addis Ababa, Ethiopia</p>
                     <div className="flex items-center gap-x-4 text-sm">
                         <span className="flex items-center gap-x-4 text-sm">
                             <FaBriefcase className="text-2xl font-medium" />For Franchise
                         </span>
                         <span className="flex items-center gap-x-4 text-sm">
-                            <FaChartLine className="text-xl" /> 12,000 Birr/Month
+                            <FaChartLine className="text-[#ff7600] text-xl mr-2" /> 12,000 Birr/Month
                         </span>
                     </div>
                 </span>
@@ -183,14 +183,14 @@ const LatestPackages = () => {
                 </div>
                 <span className="flex flex-col gap-y-1 py-4">
                     <p className="text-xl font-medium">Asking Price: 700,000.00 Birr</p>
-                    <p className="text-lg font-medium">Business Name</p>
-                    <p className="text-sm">Location</p>
+                    <p className="text-lg font-medium">Pizza Restaurant</p>
+                    <p className="text-sm">Addis Ababa, Ethiopia</p>
                     <div className="flex items-center gap-x-4 text-sm">
                         <span className="flex items-center gap-x-4 text-sm">
                             <FaBriefcase className="text-2xl font-medium" />For Franchise
                         </span>
                         <span className="flex items-center gap-x-4 text-sm">
-                            <FaChartLine className="text-xl" /> 12,000 Birr/Month
+                            <FaChartLine className="text-[#ff7600] text-xl mr-2" /> 12,000 Birr/Month
                         </span>
                     </div>
                 </span>
@@ -207,13 +207,13 @@ const LatestPackages = () => {
                 <span className="flex flex-col gap-y-1 py-4">
                     <p className="text-xl font-medium">Asking Price: 700,000.00 Birr</p>
                     <p className="text-lg font-medium">Business Name</p>
-                    <p className="text-sm">Location</p>
+                    <p className="text-sm">Addis Ababa, Ethiopia</p>
                     <div className="flex items-center gap-x-4 text-sm">
                         <span className="flex items-center gap-x-4 text-sm">
                             <FaBriefcase className="text-2xl font-medium" />For Franchise
                         </span>
                         <span className="flex items-center gap-x-4 text-sm">
-                            <FaChartLine className="text-xl" /> 12,000 Birr/Month
+                            <FaChartLine className="text-[#ff7600] text-xl mr-2" /> 12,000 Birr/Month
                         </span>
                     </div>
                 </span>
@@ -228,15 +228,15 @@ const LatestPackages = () => {
                     </button>
                 </div>
                 <span className="flex flex-col gap-y-1 py-4">
-                    <p className="text-xl font-medium">Asking Price: 700,000.00 Birr</p>
-                    <p className="text-lg font-medium">Business Name</p>
-                    <p className="text-sm">Location</p>
+                    <p className="text-xl font-medium">Asking Price: 1,000,000.00 Birr</p>
+                    <p className="text-lg font-medium">Pizza Restaurant</p>
+                    <p className="text-sm">Addis Ababa, Ethiopia</p>
                     <div className="flex items-center gap-x-4 text-sm">
                         <span className="flex items-center gap-x-4 text-sm">
                             <FaBriefcase className="text-2xl font-medium" />For Franchise
                         </span>
                         <span className="flex items-center gap-x-4 text-sm">
-                            <FaChartLine className="text-xl" /> 12,000 Birr/Month
+                            <FaChartLine className="text-[#ff7600] text-xl mr-2" /> 12,000 Birr/Month
                         </span>
                     </div>
                 </span>

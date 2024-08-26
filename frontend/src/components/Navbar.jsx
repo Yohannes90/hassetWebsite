@@ -96,18 +96,10 @@ const Navbar = () => {
                   Blogs
                 </a>
               </li>
-              {/* <li className="py-2 flex font-medium items-center leading-snug">
-                <button className="py-4 flex items-center gap-2 hover:text-[#ff7600] transition-all">
-                  <IoPersonCircleOutline className="text-2xl" />
-                  <p>Login/Register</p>
-                </button>
-              </li> */}
               <li className="py-2 flex font-medium text-white items-center leading-snug">
                 <button
-                  className="bg-[#ff7600] rounded-2xl py-4 px-6 flex items-center gap-2 hover:bg-[#e06b00] transition-all"
+                  className="text-[#ff7600] rounded-2xl border border-[#ff7600] px-6 py-4 flex items-center gap-2 hover:bg-[#ff7600] hover:text-white focus:bg-[#ff7600] focus:text-white"
                 >
-                  {/* <TbBuilding className="text-2xl" />
-                  <p>Add Listing</p> */}
                   <IoPersonCircleOutline className="text-2xl" />
                   <p>Login/Register</p>
                 </button>
