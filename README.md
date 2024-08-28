@@ -82,7 +82,7 @@ To run this project locally, follow these steps:
    npm start
    ```
 
-   The website should now be running at `http://localhost:3000`.
+   The website should now be running at `http://localhost:5173`.
 
 ## Usage
 
@@ -115,18 +115,20 @@ This will generate optimized, minified files in the `build` directory.
 
 ```plaintext
 hassetWebsite/
-├── public/               # Static files
-├── src/
-│   ├── assets/           # Images, icons, and other assets
-│   ├── components/       # Reusable React components
-│   ├── pages/            # Pages of the application
-│   ├── services/         # API calls and service functions
-│   ├── App.js            # Main application component
-│   ├── index.js          # Entry point for the React application
-│   └── styles/           # Global styles and Tailwind configuration
-├── .env                  # Environment variables
-├── .gitignore            # Files and directories to ignore in git
-├── package.json          # Project dependencies and scripts
+├── frontend/               # Static files
+│    ├── public/               # Static files
+│    ├── src/
+│    │   ├── assets/           # Images, icons, and other assets
+│    │   ├── components/       # Reusable React components
+│    │   ├── pages/            # Pages of the application
+│    │   ├── services/         # API calls and service functions
+│    │   ├── App.js            # Main application component
+│    │   ├── index.js          # Entry point for the React application
+│    │   └── styles/           # Global styles and Tailwind configuration
+│    ├── .env                  # Environment variables
+│    ├── .gitignore            # Files and directories to ignore in git
+│    ├── package.json          # Project dependencies and scripts
+│    └── README.md             # directory documentation
 └── README.md             # Project documentation
 ```
 
@@ -137,7 +139,7 @@ We welcome contributions to improve the Hasset website. To contribute, please fo
 1. **Fork the repository** on GitHub.
 2. **Clone your forked repository** to your local machine:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/hassetWebsite.git
+   git clone https://github.com/Yohannes90/hassetWebsite.git
    cd hassetWebsite
    ```
 3. **Create a new branch** for your feature or bug fix:
@@ -156,16 +158,12 @@ We welcome contributions to improve the Hasset website. To contribute, please fo
 
 Please make sure your code adheres to the project's coding standards and passes all tests before submitting.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Contact
 
 For any inquiries or issues, please contact us at:
 
 - **Email**: support@hasseto.com
-- **Website**: [Hasset](https://www.hasseto.com)
+- **Teporary Website**: [Hasset](https://yohannes90.github.io/hassetWebsite/)
 - **GitHub**: [Yohannes90](https://github.com/Yohannes90)
 
 ---
