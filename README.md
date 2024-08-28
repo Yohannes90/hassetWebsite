@@ -1,6 +1,3 @@
-Creating a comprehensive and professional `README.md` for your GitHub repository is crucial for providing clear and concise information to users and contributors. Below is a detailed `README.md` template tailored for the `hassetWebsite` repository.
-
----
 
 # HassetWebsite
 
